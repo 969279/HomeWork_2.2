@@ -13,7 +13,7 @@ int ReadInt(string message)
 
 int num = ReadInt("Введите номер дня недели: ");
 
-if (num > 7)
+if (num > 7 || num == 0)
 {
     Console.Write("Нет такого дня недели");
 }

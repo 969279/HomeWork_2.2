@@ -13,7 +13,7 @@ int ReadInt(string message)
 
 int num = ReadInt("Введите трехзначное число: ");
 
-if (num < 99 || num > 999)
+if (num <= 99 || num > 999)
 {
     Console.Write("Введено неподходящее число");
 }
